@@ -41,22 +41,22 @@ public class Verwaltung
 
     // legt zu Beginn des Programms Mitarbeiter, Kunde, Artikel, Rechnungen, Rechnungspositionen und Hitlisten an
     public void erzeugeStartDaten() throws ParseException {
-        Mitarbeiter m1 = new Mitarbeiter("Kati", "Kiefer", Rolle.KS, 25, "katik", "123456", "0613 12574", "0151 42218476");
-        Mitarbeiter m2 = new Mitarbeiter("Thomas", "Ehrhardt", Rolle.LV, 27, "thomase", "123456", "0681 896522", "0160 78661234");
-        Mitarbeiter m3 = new Mitarbeiter("Nomin", "Naranbaatar", Rolle.LV, 25, "nominn", "123456", "089 78411", "0170 12345723");
-        Mitarbeiter m4 = new Mitarbeiter("Eric", "Grünemeier", Rolle.GF, 21, "ericg", "123456", "030 600124", "0151 21216400");
-        Mitarbeiter m5 = new Mitarbeiter("Natalie", "Rauber", Rolle.GF, 21, "natalier", "123456", "0681 45755", "0151 2486464");
+        Mitarbeiter m1 = new Mitarbeiter("vorname", "nachname", Rolle.KS, 25, "test", "123456", "0613 12574", "5352525252");
+        Mitarbeiter m2 = new Mitarbeiter("vorname", "nachname", Rolle.LV, 27, "test", "123456", "0681 896522", "0160 52525252");
+        Mitarbeiter m3 = new Mitarbeiter("vorname", "nachname", Rolle.LV, 25, "test", "123456", "089 78411", "0170 42424242");
+        Mitarbeiter m4 = new Mitarbeiter("vorname", "nachname", Rolle.GF, 21, "test", "123456", "030 600124", "0151 52822852");
+        Mitarbeiter m5 = new Mitarbeiter("vorname", "nachname", Rolle.GF, 21, "test", "123456", "0681 45755", "0151 82828282");
         mitarbeiterListe.add(m1);
         mitarbeiterListe.add(m2);
         mitarbeiterListe.add(m3);
         mitarbeiterListe.add(m4);
         mitarbeiterListe.add(m5);
         
-        Kunde k1 = new  Kunde("Lukas", "Schneider", 23);
-        Kunde k2 = new  Kunde("Lars", "Roob", 31);
-        Kunde k3 = new  Kunde("Sabine", "Linn", 37);
-        Kunde k4 = new  Kunde("Elisa", "Müller", 36);
-        Kunde k5 = new  Kunde("Melissa", "Schneider", 28);
+        Kunde k1 = new  Kunde("vorname", "nachname", 23);
+        Kunde k2 = new  Kunde("vorname", "nachname", 31);
+        Kunde k3 = new  Kunde("vorname", "nachname", 37);
+        Kunde k4 = new  Kunde("vorname", "nachname", 36);
+        Kunde k5 = new  Kunde("vorname", "nachname", 28);
         kundenListe.add(k1);
         kundenListe.add(k2);
         kundenListe.add(k3);
