@@ -2073,8 +2073,7 @@ public class Verwaltung
 
     private void printProgrammInfo() {
         System.out.println("************************************************************");
-        System.out.println("* POS-System by      Thomas Ehrhardt, Eric Grünemeier      *");
-        System.out.println("*      Kati Kiefer, Natalie Rauber, Nomin Naranbaatar      *");
+        System.out.println("* POS-System by      								       *");
         System.out.println("************************************************************");
     }
 
