@@ -41,11 +41,11 @@ public class Verwaltung
 
     // legt zu Beginn des Programms Mitarbeiter, Kunde, Artikel, Rechnungen, Rechnungspositionen und Hitlisten an
     public void erzeugeStartDaten() throws ParseException {
-        Mitarbeiter m1 = new Mitarbeiter("Kati", "Kiefer", Rolle.KS, 25, "katik", "123456", "0613 12574", "0151 42218476");
-        Mitarbeiter m2 = new Mitarbeiter("Thomas", "Ehrhardt", Rolle.LV, 27, "thomase", "123456", "0681 896522", "0160 78661234");
-        Mitarbeiter m3 = new Mitarbeiter("Nomin", "Naranbaatar", Rolle.LV, 25, "nominn", "123456", "089 78411", "0170 12345723");
-        Mitarbeiter m4 = new Mitarbeiter("Eric", "Grünemeier", Rolle.GF, 21, "ericg", "123456", "030 600124", "0151 21216400");
-        Mitarbeiter m5 = new Mitarbeiter("Natalie", "Rauber", Rolle.GF, 21, "natalier", "123456", "0681 45755", "0151 2486464");
+        Mitarbeiter m1 = new Mitarbeiter("Katja", "Kuffner", Rolle.KS, 25, "katjak", "123456", "0667 12574", "0151 111111111");
+        Mitarbeiter m2 = new Mitarbeiter("Nadja", "Schmidt", Rolle.LV, 27, "nadjas", "123456", "06778 896522", "0160 66553137");
+        Mitarbeiter m3 = new Mitarbeiter("Max", "Musterman", Rolle.LV, 25, "maxm", "123456", "06846 78411", "0170 79322566");
+        Mitarbeiter m4 = new Mitarbeiter("Eric", "Weber", Rolle.GF, 21, "ericw", "123456", "06234 600124", "0151 78865321");
+        Mitarbeiter m5 = new Mitarbeiter("Sarah", "Braun", Rolle.GF, 21, "sarahb", "123456", "04345 45755", "0151 55634431");
         mitarbeiterListe.add(m1);
         mitarbeiterListe.add(m2);
         mitarbeiterListe.add(m3);
