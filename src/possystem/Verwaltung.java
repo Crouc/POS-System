@@ -41,11 +41,19 @@ public class Verwaltung
 
     // legt zu Beginn des Programms Mitarbeiter, Kunde, Artikel, Rechnungen, Rechnungspositionen und Hitlisten an
     public void erzeugeStartDaten() throws ParseException {
+<<<<<<< HEAD
         Mitarbeiter m1 = new Mitarbeiter("vorname", "nachname", Rolle.KS, 25, "test", "123456", "0613 12574", "5352525252");
         Mitarbeiter m2 = new Mitarbeiter("vorname", "nachname", Rolle.LV, 27, "test", "123456", "0681 896522", "0160 52525252");
         Mitarbeiter m3 = new Mitarbeiter("vorname", "nachname", Rolle.LV, 25, "test", "123456", "089 78411", "0170 42424242");
         Mitarbeiter m4 = new Mitarbeiter("vorname", "nachname", Rolle.GF, 21, "test", "123456", "030 600124", "0151 52822852");
         Mitarbeiter m5 = new Mitarbeiter("vorname", "nachname", Rolle.GF, 21, "test", "123456", "0681 45755", "0151 82828282");
+=======
+        Mitarbeiter m1 = new Mitarbeiter("Katja", "Kuffner", Rolle.KS, 25, "katjak", "123456", "0667 12574", "0151 111111111");
+        Mitarbeiter m2 = new Mitarbeiter("Nadja", "Schmidt", Rolle.LV, 27, "nadjas", "123456", "06778 896522", "0160 66553137");
+        Mitarbeiter m3 = new Mitarbeiter("Max", "Musterman", Rolle.LV, 25, "maxm", "123456", "06846 78411", "0170 79322566");
+        Mitarbeiter m4 = new Mitarbeiter("Eric", "Weber", Rolle.GF, 21, "ericw", "123456", "06234 600124", "0151 78865321");
+        Mitarbeiter m5 = new Mitarbeiter("Sarah", "Braun", Rolle.GF, 21, "sarahb", "123456", "04345 45755", "0151 55634431");
+>>>>>>> develop
         mitarbeiterListe.add(m1);
         mitarbeiterListe.add(m2);
         mitarbeiterListe.add(m3);
@@ -2073,8 +2081,7 @@ public class Verwaltung
 
     private void printProgrammInfo() {
         System.out.println("************************************************************");
-        System.out.println("* POS-System by      Thomas Ehrhardt, Eric Grünemeier      *");
-        System.out.println("*      Kati Kiefer, Natalie Rauber, Nomin Naranbaatar      *");
+        System.out.println("* POS-System by      								       *");
         System.out.println("************************************************************");
     }
 
